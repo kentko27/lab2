@@ -70,7 +70,7 @@ body {
   width: 32px;
   height: 32px;
   top: 31px;
-  left: 1500px;
+  left: 1490px;
   background: url(./assets/images/46e54e40-4aed-43a0-a1a4-bf4b4bcbb949.png)
     no-repeat center;
   background-size: cover;
@@ -82,7 +82,7 @@ body {
   position: absolute;
   height: 38px;
   top: 190px;
-  left: 330px;
+  left: 290px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
@@ -128,7 +128,7 @@ body {
   width: 432px;
   height: 205px;
   top: 220px;
-  left: 330px;
+  left: 290px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
@@ -145,9 +145,9 @@ body {
 .pic-2 {
   position: absolute;
   width: 1.028px;
-  height: 234px;
+  height: 200px;
   top: 430px;
-  left: 357px;
+  left: 320px;
   background: url(./assets/images/20ac9983-2860-48ca-9978-73d76c2b2113.png)
     no-repeat center;
   background-size: cover;
@@ -162,13 +162,13 @@ body {
   width: 328px;
   height: 64px;
   top: 450px;
-  left: 390px;
+  left: 350px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
@@ -178,8 +178,8 @@ body {
 .wrapper {
   position: absolute;
   width: 1690px;
-  height: 300px;
-  top: 520px;
+  height: 340px;
+  top: 470px;
   background: #1b1b1b;
 }
 .box {
@@ -189,7 +189,9 @@ body {
   position: relative;
   width: 123px;
   height: 42px;
-  margin: 90px 0 0 390px;
+  margin: 100px 0 0 390px;
+  left:-40px;
+  top:20px;
   z-index: 15;
 }
 .pic-3 {
@@ -219,6 +221,8 @@ body {
   width: 1315px;
   height: 32px;
   margin: 134px 0 0 195px;
+  top:-50px;
+  left:-40px;
   z-index: 5;
 }
 .text-5 {
@@ -227,15 +231,15 @@ body {
   justify-content: center;
   position: absolute;
   width: 119px;
-  height: 32px;
-  top: 0;
+  height: 20px;
+  top: -34;
   left: 0;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 25.992px;
   text-align: center;
@@ -248,7 +252,7 @@ body {
   justify-content: center;
   position: absolute;
   width: 119px;
-  height: 32px;
+  height: 20px;
   top: 0;
   left: 572px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -256,7 +260,7 @@ body {
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 25.992px;
   text-align: center;
@@ -269,7 +273,7 @@ body {
   justify-content: center;
   position: absolute;
   width: 153px;
-  height: 32px;
+  height: 18px;
   top: 0;
   left: 1162px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -277,7 +281,7 @@ body {
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 25.992px;
   text-align: center;
@@ -289,6 +293,7 @@ body {
   width: 1364px;
   height: 32px;
   margin: 10px 0 0 165px;
+  top:-40px;
   z-index: 8;
 }
 .text-8 {
@@ -298,14 +303,14 @@ body {
   position: absolute;
   width: 191px;
   height: 32px;
-  top: 0;
-  left: 0;
+  top: -20px;
+  left: -40px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
   color: #ffc600;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
@@ -319,14 +324,14 @@ body {
   position: absolute;
   width: 191px;
   height: 32px;
-  top: 0;
-  left: 566px;
+  top: -20px;
+  left: 525px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
   color: #ffc600;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
@@ -340,14 +345,14 @@ body {
   position: absolute;
   width: 191px;
   height: 32px;
-  top: 0;
-  left: 1173px;
+  top: -20px;
+  left: 1135px;
   font-family: RetroPix, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
   color: #ffc600;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
