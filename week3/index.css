@@ -443,7 +443,7 @@ body {
   white-space: nowrap;
   z-index: 7;
 }
-.text-a {
+#text-a {
   display: flex;
   align-items: flex-start;
   justify-content: center;
