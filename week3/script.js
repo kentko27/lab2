@@ -20,7 +20,7 @@
     firstName: "Clart Kent",
     lastName: "Nailgas",
     country: "Philippines",
-    call2: function(){
+    call3: function(){
       return this.country
     }
   };
@@ -30,4 +30,4 @@
   import title from './title2.js'
 
   const title21 = document.getElementById("text-a");
-  title21.textContent = title2.call2();
+  title21.textContent = title2.call3();
