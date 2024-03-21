@@ -10,7 +10,7 @@
   </head>
   <body>
   
-    <div class="main-container">
+
 	<div class="navbar">
 
   <div class="menu-icon" onclick="toggleMenu()">
@@ -69,6 +69,40 @@
       echo ucfirst($key) . ": " . $value . "<br>"; 
       }
       ?>
+      </span>
+
+      <span id="phptut2">
+      <?php
+
+      function displayGreeting($name) {
+        echo "<h1>Hello, $name!</h1>";
+      }
+
+
+      function changeName() {
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $newName = $_POST["new_name"];
+            displayGreeting($newName);
+        }
+      }
+
+
+      $defaultName = "Clart";
+
+
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        changeName();
+        } else {
+        displayGreeting($defaultName);
+      }
+      ?>
+
+
+      <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+          <label for="new_name">Enter a new name:</label><br>
+          <input type="text" id="new_name" name="new_name"><br>
+          <input type="submit" value="Change Name">
+      </form>
       </span>
         </div>
       </div>
