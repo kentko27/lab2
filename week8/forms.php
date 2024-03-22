@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>  
 <html>
 <head>
@@ -54,9 +53,7 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
-?>
 
-<?php
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -69,8 +66,9 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO MyGuests (firstname, lastname, email)
-VALUES ($name, $website, $email)";
+$sql = "INSERT INTO MyGuests (name, email, website,comment,gender)
+VALUES (
+  '$name', '$email', '$website', '$comment', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
@@ -79,6 +77,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+
 ?>
 
 </body>
